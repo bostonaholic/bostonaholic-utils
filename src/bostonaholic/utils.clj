@@ -4,4 +4,3 @@
   (if-not (keyword? num)
     (keyword (str num))
     num))
-
