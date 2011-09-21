@@ -20,10 +20,10 @@
         (upto start end)
         (downto start end))))
 
-(to 10 20)
-(to 20 10)
-(to 5 -5)
-(to 10)
+;(to 10 20)
+;(to 20 10)
+;(to 5 -5)
+;(to 10)
 
 (defn divisible? [x, divisor]
   (zero? (rem x divisor)))
